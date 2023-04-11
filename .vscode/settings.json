@@ -61,5 +61,12 @@
   "i18n-ally.localesPaths": [
     "src/locales"
   ],
-  "i18n-ally.keystyle": "nested"
+  "i18n-ally.keystyle": "nested",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "activityBar.background": "#3D253D",
+    "titleBar.activeBackground": "#553455",
+    "titleBar.activeForeground": "#FCF9FC"
+  }
 }
