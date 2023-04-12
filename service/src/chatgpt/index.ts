@@ -13,6 +13,9 @@ import type { RequestOptions, SetProxyOptions, UsageResponse } from './types'
 const { HttpsProxyAgent } = httpsProxyAgent
 
 dotenv.config()
+console.log(process.env.HTTP_PROXY, process.env.HTTPS_PROXY)
+// process.env.HTTP_PROXY="http://127.0.0.1:7890"
+// process.env.HTTPS_PROXY="http://127.0.0.1:7890"
 
 const ErrorCodeMessage: Record<string, string> = {
   401: '[OpenAI] 提供错误的API密钥 | Incorrect API key provided',
